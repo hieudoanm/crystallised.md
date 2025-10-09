@@ -1,27 +1,74 @@
 {
-  "name": "crystallised.md",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
-    "start": "next start",
-    "lint": "eslint"
-  },
-  "dependencies": {
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "next": "15.5.4"
-  },
-  "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
-    "eslint": "^9",
-    "eslint-config-next": "15.5.4",
-    "@eslint/eslintrc": "^3"
-  }
+	"name": "crystallised.md",
+	"version": "0.1.0",
+	"private": true,
+	"description": "Crystallised Knowledge",
+	"keywords": [
+		"crystallised",
+		"markdown"
+	],
+	"homepage": "https://github.com/hieudoanm/crystallised.md#readme",
+	"bugs": {
+		"url": "https://github.com/hieudoanm/crystallised.md/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/hieudoanm/crystallised.md.git"
+	},
+	"license": "GPL-3.0",
+	"author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
+	"packageManager": "pnpm@10.18.1",
+	"scripts": {
+		"predev": "kill-port 3000",
+		"dev": "next dev --turbopack",
+		"prebuild": "rimraf .next docs",
+		"build": "next build --turbopack",
+		"build:tauri": "tauri build",
+		"build:android": "rm -rf mobile/android && cap add android && cap sync android",
+		"build:ios": "rm -rf mobile/ios && cap add ios && cap sync ios",
+		"build:mobile": "pnpm run build:android && pnpm run build:ios",
+		"prestart": "kill-port 3000",
+		"start": "next start",
+		"format": "prettier --cache --write .",
+		"lint": "eslint",
+		"prepare": "husky"
+	},
+	"dependencies": {
+		"@capacitor/android": "^7.4.3",
+		"@capacitor/ios": "^7.4.3",
+		"dompurify": "3.2.7",
+		"github-markdown-css": "5.8.1",
+		"gray-matter": "4.0.3",
+		"html-to-pdfmake": "2.5.31",
+		"marked": "16.4.0",
+		"next": "15.5.4",
+		"pdfmake": "0.2.20",
+		"pino": "10.0.0",
+		"react": "19.2.0",
+		"react-dom": "19.2.0",
+		"remark": "15.0.1",
+		"remark-gfm": "4.0.1",
+		"remark-html": "16.0.1"
+	},
+	"devDependencies": {
+		"@capacitor/cli": "7.4.3",
+		"@eslint/eslintrc": "3.3.1",
+		"@tailwindcss/postcss": "4.1.14",
+		"@tauri-apps/cli": "2.8.4",
+		"@types/html-to-pdfmake": "2.4.4",
+		"@types/node": "24.7.0",
+		"@types/pdfmake": "0.2.11",
+		"@types/react": "19.2.2",
+		"@types/react-dom": "19.2.1",
+		"daisyui": "5.1.29",
+		"eslint": "9.37.0",
+		"eslint-config-next": "15.5.4",
+		"husky": "9.1.7",
+		"kill-port": "2.0.1",
+		"prettier": "3.6.2",
+		"prettier-plugin-tailwindcss": "0.6.14",
+		"rimraf": "6.0.1",
+		"tailwindcss": "4.1.14",
+		"typescript": "5.9.3"
+	}
 }
