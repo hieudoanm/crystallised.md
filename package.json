@@ -35,8 +35,8 @@
 		"prepare": "husky"
 	},
 	"dependencies": {
-		"@capacitor/android": "^7.4.3",
-		"@capacitor/ios": "^7.4.3",
+		"@capacitor/android": "7.4.3",
+		"@capacitor/ios": "7.4.3",
 		"dompurify": "3.2.7",
 		"github-markdown-css": "5.8.1",
 		"gray-matter": "4.0.3",
