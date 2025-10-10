@@ -94,8 +94,8 @@ importers:
         specifier: 19.2.1
         version: 19.2.1(@types/react@19.2.2)
       daisyui:
-        specifier: 5.1.29
-        version: 5.1.29
+        specifier: 5.1.30
+        version: 5.1.30
       eslint:
         specifier: 9.37.0
         version: 9.37.0(jiti@2.6.1)
@@ -124,8 +124,8 @@ importers:
         specifier: 4.1.14
         version: 4.1.14
       ts-jest:
-        specifier: 29.4.4
-        version: 29.4.4(@babel/core@7.28.4)(@jest/transform@30.2.0)(@jest/types@30.2.0)(babel-jest@30.2.0(@babel/core@7.28.4))(jest-util@30.2.0)(jest@30.2.0(@types/node@24.7.0))(typescript@5.9.3)
+        specifier: 29.4.5
+        version: 29.4.5(@babel/core@7.28.4)(@jest/transform@30.2.0)(@jest/types@30.2.0)(babel-jest@30.2.0(@babel/core@7.28.4))(jest-util@30.2.0)(jest@30.2.0(@types/node@24.7.0))(typescript@5.9.3)
       typescript:
         specifier: 5.9.3
         version: 5.9.3
@@ -1583,8 +1583,8 @@ packages:
   csstype@3.1.3:
     resolution: {integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==}
 
-  daisyui@5.1.29:
-    resolution: {integrity: sha512-4eZhqCXO7CJVNGytTZEIQYJz3fah2gPleuqp4qUD4fD8WoEQIYzKwlOewi8nPaz6NX7vvSLZ+YSjt5Z5zqacGw==}
+  daisyui@5.1.30:
+    resolution: {integrity: sha512-eMg8g8VQmQSl4AyUhXHTdQQiffXerjqL//W7ggACjzNejDXIbVSgRtJkv6JwRLXIhm7X6fcVrweEg1X1H3FhLA==}
 
   damerau-levenshtein@1.0.8:
     resolution: {integrity: sha512-sdQSFB7+llfUcQHUQO3+B8ERRj0Oa4w9POWMI/puGtuf7gFywGmkaLCElnudfTiKZV+NvHqL0ifzdrI8Ro7ESA==}
@@ -3686,8 +3686,8 @@ packages:
     peerDependencies:
       typescript: '>=4.8.4'
 
-  ts-jest@29.4.4:
-    resolution: {integrity: sha512-ccVcRABct5ZELCT5U0+DZwkXMCcOCLi2doHRrKy1nK/s7J7bch6TzJMsrY09WxgUUIP/ITfmcDS8D2yl63rnXw==}
+  ts-jest@29.4.5:
+    resolution: {integrity: sha512-HO3GyiWn2qvTQA4kTgjDcXiMwYQt68a1Y8+JuLRVpdIzm+UOLSHgl/XqR4c6nzJkq5rOkjc02O2I7P7l/Yof0Q==}
     engines: {node: ^14.15.0 || ^16.10.0 || ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -5551,7 +5551,7 @@ snapshots:
 
   csstype@3.1.3: {}
 
-  daisyui@5.1.29: {}
+  daisyui@5.1.30: {}
 
   damerau-levenshtein@1.0.8: {}
 
@@ -8195,7 +8195,7 @@ snapshots:
     dependencies:
       typescript: 5.9.3
 
-  ts-jest@29.4.4(@babel/core@7.28.4)(@jest/transform@30.2.0)(@jest/types@30.2.0)(babel-jest@30.2.0(@babel/core@7.28.4))(jest-util@30.2.0)(jest@30.2.0(@types/node@24.7.0))(typescript@5.9.3):
+  ts-jest@29.4.5(@babel/core@7.28.4)(@jest/transform@30.2.0)(@jest/types@30.2.0)(babel-jest@30.2.0(@babel/core@7.28.4))(jest-util@30.2.0)(jest@30.2.0(@types/node@24.7.0))(typescript@5.9.3):
     dependencies:
       bs-logger: 0.2.6
       fast-json-stable-stringify: 2.1.0

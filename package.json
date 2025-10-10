@@ -17,7 +17,7 @@
 	},
 	"license": "GPL-3.0",
 	"author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
-	"packageManager": "pnpm@10.18.1",
+	"packageManager": "pnpm@10.18.2",
 	"scripts": {
 		"predev": "kill-port 3000",
 		"dev": "next dev --turbopack",
@@ -66,7 +66,7 @@
 		"@types/pdfmake": "0.2.11",
 		"@types/react": "19.2.2",
 		"@types/react-dom": "19.2.1",
-		"daisyui": "5.1.29",
+		"daisyui": "5.1.30",
 		"eslint": "9.37.0",
 		"eslint-config-next": "15.5.4",
 		"husky": "9.1.7",
@@ -76,7 +76,7 @@
 		"prettier-plugin-tailwindcss": "0.6.14",
 		"rimraf": "6.0.1",
 		"tailwindcss": "4.1.14",
-		"ts-jest": "29.4.4",
+		"ts-jest": "29.4.5",
 		"typescript": "5.9.3"
 	}
 }
