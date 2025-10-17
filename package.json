@@ -62,7 +62,7 @@
 		"@types/html-to-pdfmake": "2.4.4",
 		"@types/jest": "30.0.0",
 		"@types/node": "24.8.0",
-		"@types/pdfmake": "0.2.11",
+		"@types/pdfmake": "0.2.12",
 		"@types/react": "19.2.2",
 		"@types/react-dom": "19.2.2",
 		"daisyui": "5.3.7",
