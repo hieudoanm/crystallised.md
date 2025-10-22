@@ -36,8 +36,8 @@
 		"prepare": "husky"
 	},
 	"dependencies": {
-		"@capacitor/android": "7.4.3",
-		"@capacitor/ios": "7.4.3",
+		"@capacitor/android": "7.4.4",
+		"@capacitor/ios": "7.4.4",
 		"dompurify": "3.3.0",
 		"github-markdown-css": "5.8.1",
 		"gray-matter": "4.0.3",
@@ -53,7 +53,7 @@
 		"remark-html": "16.0.1"
 	},
 	"devDependencies": {
-		"@capacitor/cli": "7.4.3",
+		"@capacitor/cli": "7.4.4",
 		"@eslint/eslintrc": "3.3.1",
 		"@tailwindcss/postcss": "4.1.15",
 		"@tauri-apps/cli": "2.9.1",
