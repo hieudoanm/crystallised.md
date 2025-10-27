@@ -13,20 +13,11 @@ date: '2025-05-04'
 
 ## Websites
 
-- [BBC](https://www.bbc.com/)
-- [CERN](https://home.cern/)
-- [Discovery](https://www.discovery.com/)
 - [Duolingo](https://duolingo.com/)
-- [Fox Spirit](https://foxspirit.vn/)
-- [Hano Film](https://hanofilm.com/)
-- [LEGO](https://www.lego.com/en-us)
-- [LLAB](https://llab.vn/)
-- [National Geogrhphic](https://www.nationalgeographic.com/)
-- [NASA](https://www.nasa.gov/)
-- [Nobel Prize](https://www.nobelprize.org/)
-- [Pantone](https://www.pantone.com/)
-- [SpaceX](https://www.spacex.com/)
 - [Strava](https://www.strava.com/)
+- [Mobbin](https://mobbin.com)
+- [Pinterest](https://www.pinterest.com/)
+- [Coolors](https://coolors.co/)
 - Platform
   - [LinkedIn Learning](https://www.linkedin.com/learning/)
   - [Udacity](https://www.udacity.com/)
@@ -47,24 +38,25 @@ date: '2025-05-04'
 
 ## 📰 National News Outlets
 
-1. [CNN](https://www.cnn.com/)
-2. [Fox News](https://www.foxnews.com/)
-3. [MSNBC](https://www.msnbc.com/)
-4. [ABC News](https://abcnews.go.com/)
-5. [CBS News](https://www.cbsnews.com/)
+1. [BBC](https://www.bbc.com/)
+2. [CNN](https://www.cnn.com/)
+3. [Fox News](https://www.foxnews.com/)
+4. [MSNBC](https://www.msnbc.com/)
+5. [ABC News](https://abcnews.go.com/)
+6. [CBS News](https://www.cbsnews.com/)
    1. CBS Sports Golazo
-6. [NBC News](https://www.nbcnews.com/)
-7. [The New York Times](https://www.nytimes.com/)
+7. [NBC News](https://www.nbcnews.com/)
+8. [The New York Times](https://www.nytimes.com/)
    1. [The Athletic](https://www.nytimes.com/athletic/uk/)
-8. [The Washington Post](https://www.washingtonpost.com/)
-9. [USA TODAY](https://www.usatoday.com/)
-10. [The Wall Street Journal](https://www.wsj.com/)
-11. [Reuters](https://www.reuters.com/)
-12. [Bloomberg](https://www.bloomberg.com/)
-13. [Associated Press](https://apnews.com/)
-14. [Politico](https://www.politico.com/)
-15. [NPR (National Public Radio)](https://www.npr.org/)
-16. [Newsweek](https://www.newsweek.com/)
+9. [The Washington Post](https://www.washingtonpost.com/)
+10. [USA TODAY](https://www.usatoday.com/)
+11. [The Wall Street Journal](https://www.wsj.com/)
+12. [Reuters](https://www.reuters.com/)
+13. [Bloomberg](https://www.bloomberg.com/)
+14. [Associated Press](https://apnews.com/)
+15. [Politico](https://www.politico.com/)
+16. [NPR (National Public Radio)](https://www.npr.org/)
+17. [Newsweek](https://www.newsweek.com/)
 
 ## 🗞️ Local and Regional News Outlets
 
@@ -85,11 +77,6 @@ date: '2025-05-04'
 2. [BuzzFeed News](https://www.buzzfeednews.com/)
 3. [The Daily Beast](https://www.thedailybeast.com/)
 4. [Vox](https://www.vox.com/)
-   1. Cleo Abram
-   2. Johnny Harris
-   3. Joss Fong - HowTown
 5. [Slate](https://slate.com/)
 6. [Business Insider](https://www.businessinsider.com/)
 7. [The Verge](https://www.theverge.com/)
-8. [Morning Brew](https://www.morningbrew.com/)
-   1. [Good Work](https://morningbrewinc.com/brands/good-work)

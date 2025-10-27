@@ -310,6 +310,10 @@ model User {
 
 ## API
 
+| #   | Group | Name               | Open Source          | Maintainer | Language |
+| --- | ----- | ------------------ | -------------------- | ---------- | -------- |
+| 1   | API   | [Swagger][swagger] | [GitHub][gh-swagger] |            | [JS][js] |
+
 ### GenAI
 
 | No  | Type  | Name                                      | Maintainer                           |
@@ -569,3 +573,5 @@ model User {
 [r]: https://www.r-project.org/
 [rust]: https://www.rust-lang.org/
 [scala]: https://www.scala-lang.org/
+[swagger]: https://swagger.io
+[gh-swagger]: https://github.com/swagger-api
