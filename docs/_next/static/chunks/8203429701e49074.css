@@ -925,7 +925,8 @@
 			appearance: none;
 		}
 		.btn:is(input[type='checkbox'], input[type='radio']):after {
-			content: attr(aria-label);
+			--tw-content: attr(aria-label);
+			content: var(--tw-content);
 		}
 		.btn:where(input:checked:not(.filter .btn)) {
 			--btn-color: var(--color-primary);
@@ -1075,7 +1076,8 @@
 			box-shadow: 0 1px var(--input-color);
 		}
 		@supports (color: color-mix(in lab, red, red)) {
-			:is(.input:focus, .input:focus-within) {
+			.input:focus,
+			.input:focus-within {
 				box-shadow: 0 1px
 					color-mix(
 						in oklab,
@@ -1113,11 +1115,11 @@
 			color: var(--color-base-content);
 		}
 		@supports (color: color-mix(in lab, red, red)) {
-			:is(
-				.input:has(> input[disabled]),
-				.input:is(:disabled, [disabled]),
-				fieldset:disabled .input
-			) {
+			.input:is(:disabled, [disabled]),
+			fieldset:disabled .input {
+				color: color-mix(in oklab, var(--color-base-content) 40%, transparent);
+			}
+			.input:has(> input[disabled]) {
 				color: color-mix(in oklab, var(--color-base-content) 40%, transparent);
 			}
 		}
@@ -1286,8 +1288,7 @@
 			height: 0.5rem;
 			color: var(--step-bg);
 			background-color: var(--step-bg);
-			--tw-content: '';
-			content: var(--tw-content);
+			content: '';
 			border: 1px solid;
 			grid-row-start: 1;
 			grid-column-start: 1;
@@ -1295,7 +1296,8 @@
 			top: 0;
 		}
 		.steps .step > .step-icon {
-			content: counter(step);
+			--tw-content: counter(step);
+			content: var(--tw-content);
 			counter-increment: step;
 			z-index: 1;
 			color: var(--step-fg);
@@ -1312,7 +1314,8 @@
 			position: relative;
 		}
 		.steps .step:not(:has(.step-icon)):after {
-			content: counter(step);
+			--tw-content: counter(step);
+			content: var(--tw-content);
 			counter-increment: step;
 			z-index: 1;
 			color: var(--step-fg);
@@ -1329,10 +1332,12 @@
 			position: relative;
 		}
 		.steps .step:first-child:before {
-			content: none;
+			--tw-content: none;
+			content: var(--tw-content);
 		}
 		.steps .step[data-content]:after {
-			content: attr(data-content);
+			--tw-content: attr(data-content);
+			content: var(--tw-content);
 		}
 		.card {
 			border-radius: var(--radius-box);
