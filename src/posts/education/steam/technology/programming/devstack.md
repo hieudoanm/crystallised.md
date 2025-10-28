@@ -26,6 +26,9 @@ date: '2025-10-06'
   - [GenAI](#genai)
   - [Social](#social)
   - [Other](#other)
+- [Chip](#chip)
+  - [Comparisons](#comparisons)
+  - [Companies](#companies)
 
 ## Language Iceberg
 
@@ -354,6 +357,29 @@ model User {
 | 08  | Weather   | [Air Visual](https://api-docs.iqair.com/)       |
 | 09  | Weather   | [Open Meteo](https://open-meteo.com/)           |
 | 10  | Weather   | [Open Weather Map](https://openweathermap.org/) |
+
+## Chip
+
+### Comparisons
+
+- Computer processors: Intel vs AMD
+- Smartphone chips: Apple vs Snapdragon
+- Graphics cards: NVIDIA vs AMD GPU
+- Embedded Systems or Microcontrollers: ESP32 vs Raspberry Pi Pico
+- AI accelerator chips: NVIDIA vs Google TPU
+
+### Companies
+
+- Samsung
+- NVIDIA Corp. (NVDA)
+- Taiwan Semiconductor Manufacturing Co. Ltd. (TSM)
+- Intel Corp. (INTC)
+- Broadcom Inc. (AVGO)
+- Qualcomm Inc. (QCOM)
+- SK Hynix Inc. (000660.KS)
+- ASML Holding NV (ASML)
+- Applied Materials Inc. (AMAT)
+- Advanced Micro Devices (AMD)
 
 [alphabet]: https://abc.xyz
 [aws]: https://aws.amazon.com

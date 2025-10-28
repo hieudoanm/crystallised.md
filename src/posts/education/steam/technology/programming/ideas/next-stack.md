@@ -17,12 +17,8 @@ date: '2025-05-11'
     - [`@next-stack/server`](#next-stackserver)
   - [SaaS (Software as a Service)](#saas-software-as-a-service)
     - [`@next-stack/email`](#next-stackemail)
-    - [`@next-stack/flags`](#next-stackflags)
     - [`@next-stack/pay`](#next-stackpay)
   - [Other](#other)
-    - [`@next-stack/ai`](#next-stackai)
-    - [`@next-stack/browser`](#next-stackbrowser)
-    - [`@next-stack/blockchain`](#next-stackblockchain)
     - [`@next-stack/other`](#next-stackother)
 - [Ecosystem](#ecosystem)
 - [Inspired By](#inspired-by)
@@ -93,11 +89,6 @@ date: '2025-05-11'
 2. [MailGun](https://www.mailgun.com/)
 3. [SendGrid](https://sendgrid.com/)
 
-#### `@next-stack/flags`
-
-1. [Flagsmith](https://www.flagsmith.com/)
-2. [LaunchDarkly](https://launchdarkly.com/)
-
 #### `@next-stack/pay`
 
 1. [Klarna](https://www.klarna.com/)
@@ -107,40 +98,6 @@ date: '2025-05-11'
 4. [Paypal](https://www.paypal.com/)
 
 ### Other
-
-#### `@next-stack/ai`
-
-1. [OpenAI](https://openai.com/)
-2. [Deepseek](https://www.deepseek.com/)
-3. [Perplexity](https://www.perplexity.ai/)
-4. [Claude](https://claude.ai/)
-5. [Gemini](https://gemini.google.com/)
-
-#### `@next-stack/browser`
-
-| #   | Group    | Browser                  | Open Source | Maintainer           | Language | Recommended |
-| --- | -------- | ------------------------ | ----------- | -------------------- | -------- | ----------- |
-| 1   | Gecko    | [Firefox][firefox]       |             | [Mozilla][mozilla]   |          | Recommended |
-| 2   | Gecko    | [Tor][tor]               |             |                      |          |             |
-| 3   | WebKit   | [DuckDuckGo][duckduckgo] |             |                      |          |             |
-| 4   | WebKit   | [Safari][Safari]         |             | [Apple][apple]       |          |             |
-| 5   | Chromium | [Chromium][chromium]     |             | [Alphabet][alphabet] |          |             |
-| 6   | Chromium | [Arc][arc]               |             |                      |          |             |
-| 7   | Chromium | [Brave][brave]           |             |                      |          |             |
-| 8   | Chromium | [Chrome][chrome]         |             | [Alphabet][alphabet] |          |             |
-| 9   | Chromium | [Edge][edge]             |             | [Microsoft][ms]      |          |             |
-| 10  | Chromium | [Opera][opera]           |             |                      |          |             |
-| 11  | Chromium | [Whale][naver-whale]     |             | [Naver][naver]       |          |             |
-| 12  | Chromium | [Vivaldi][vivaldi]       |             |                      |          |             |
-| 13  | Chromium | [Yandex][yandex]         |             |                      |          |             |
-
-#### `@next-stack/blockchain`
-
-1. [Bitcoin](https://bitcoin.org/)
-2. [Ethereum](https://ethereum.org/en/)
-3. [Solana](https://solana.com/)
-4. [Monero](https://www.getmonero.org/)
-5. [Polygon](https://polygon.technology/)
 
 #### `@next-stack/other`
 
@@ -173,22 +130,3 @@ date: '2025-05-11'
 ### PHP
 
 1. [Laravel](https://laravel.com/)
-
-[alphabet]: https://abc.xyz
-[apple]: https://www.apple.com
-[mozilla]: https://www.mozilla.org
-[arc]: https://arc.net
-[brave]: https://brave.com
-[chrome]: https://www.google.com/chrome
-[chromium]: https://www.chromium.org
-[duckduckgo]: https://duckduckgo.com/
-[edge]: https://www.microsoft.com/en-us/edge
-[firefox]: https://www.mozilla.org/en-US/firefox
-[ms]: https://www.microsoft.com
-[naver]: https://naver.com
-[naver-whale]: https://whale.naver.com
-[opera]: https://www.opera.com
-[safari]: https://www.apple.com/safari
-[tor]: https://www.torproject.org/
-[vivaldi]: https://vivaldi.com/
-[yandex]: https://browser.yandex.com

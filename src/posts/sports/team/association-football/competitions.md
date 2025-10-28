@@ -8,69 +8,11 @@ date: '2025-06-03'
 - [Table of Contents](#table-of-contents)
 - [Competitions](#competitions)
   - [Clubs](#clubs)
-    - [Leagues](#leagues)
-    - [Cups](#cups)
-  - [International](#international)
   - [Champions](#champions)
 
 ## Competitions
 
 ### Clubs
-
-#### Leagues
-
-| No  | Tier | Region  | Subregion     | Country      | Competition                   |
-| --- | ---- | ------- | ------------- | ------------ | ----------------------------- |
-| 01  | 1    | America | Northern      | Mexico       | Liga MX                       |
-| 02  | 1    | America | Northern      | USA & Canada | Major League Soccer (MLS)     |
-| 03  | 1    | America | Southern      | Argentina    | Argentine Primera División    |
-| 04  | 1    | America | Southern      | Brazil       | Campeonato Brasileiro Série A |
-| 05  | 1    | America | Southern      | Chile        | Chilean Primera División      |
-| 06  | 1    | Asia    | Eastern       | Japan        | J1 League                     |
-| 07  | 1    | Asia    | Eastern       | Korea        | K League 1                    |
-| 08  | 1    | Asia    | Southeastern  | Thailand     | Thai League 1                 |
-| 09  | 1    | Asia    | Southeastern  | Vietnam      | V.League 1                    |
-| 10  | 1    | Asia    | Saudi Arabia  | Western      | Saudi Pro League              |
-| 11  | 1    | Europe  | Great Britain | England      | English Premier League (EPL)  |
-| 12  | 2    | Europe  | Great Britain | England      | EPL Championship              |
-| 13  | 3    | Europe  | Great Britain | England      | EPL League One                |
-| 14  | 4    | Europe  | Great Britain | England      | EPL League Two                |
-| 15  | 5    | Europe  | Great Britain | England      | National League               |
-| 16  | 1    | Europe  | Northern      | Italy        | Serie A                       |
-| 17  | 2    | Europe  | Northern      | Italy        | Serie B                       |
-| 18  | 1    | Europe  | Northern      | Portugal     | Primeira Liga                 |
-| 19  | 1    | Europe  | Northern      | Spain        | La Liga                       |
-| 20  | 1    | Europe  | Western       | France       | Ligue 1                       |
-| 21  | 2    | Europe  | Western       | France       | Ligue 2                       |
-| 22  | 1    | Europe  | Western       | Germany      | Bundesliga                    |
-| 23  | 2    | Europe  | Western       | Germany      | Bundesliga 2                  |
-| 24  | 1    | Europe  | Western       | Netherlands  | Eredivisie                    |
-
-#### Cups
-
-| No  | Tier | Region | Country | Competition            |
-| --- | ---- | ------ | ------- | ---------------------- |
-| 01  | 1    | Europe | England | FA Cup                 |
-| 02  | 2    | Europe | England | EFL Cup (Carabao Cup)  |
-| 03  | 1    | Europe | Germany | DFB-Pokal              |
-| 04  | 1    | Europe | Italy   | Coppa Italia           |
-| 05  | 1    | Europe | Spain   | Copa del Rey           |
-| 06  | 1    | Europe |         | UEFA Champions League  |
-| 07  | 2    | Europe |         | UEFA Europa League     |
-| 08  | 3    | Europe |         | UEFA Conference League |
-
-### International
-
-| No  | Region  | Subregion       | Competition                       |
-| --- | ------- | --------------- | --------------------------------- |
-| 01  | Africa  |                 | Africa Cup of Nations (AFCON)     |
-| 02  | America | North America   | CONCACAF                          |
-| 03  | America | South America   | Copa América                      |
-| 04  | Asia    |                 | AFC Asian Cup                     |
-| 05  | Asia    | South East Asia | AFF Cup                           |
-| 06  | Europe  |                 | UEFA European Championship (Euro) |
-| 07  | Europe  |                 | UEFA Nations League               |
-| 08  | World   |                 | FIFA World Cup                    |
 
 ### Champions
 
