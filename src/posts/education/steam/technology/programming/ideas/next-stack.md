@@ -10,27 +10,19 @@ date: '2025-05-11'
 - [Techstack](#techstack)
   - [Development](#development)
     - [`@next-stack/cli`](#next-stackcli)
-    - [`@next-stack/test`](#next-stacktest)
-    - [`@next-stack/devops`](#next-stackdevops)
   - [Full-stack](#full-stack)
     - [`@next-stack/ui`](#next-stackui)
       - [Components](#components)
     - [`@next-stack/auth`](#next-stackauth)
     - [`@next-stack/server`](#next-stackserver)
-  - [Database](#database)
-    - [`@next-stack/cache`](#next-stackcache)
-    - [`@next-stack/orm`](#next-stackorm)
-    - [`@next-stack/search`](#next-stacksearch)
   - [SaaS (Software as a Service)](#saas-software-as-a-service)
     - [`@next-stack/email`](#next-stackemail)
     - [`@next-stack/flags`](#next-stackflags)
     - [`@next-stack/pay`](#next-stackpay)
   - [Other](#other)
-    - [`@next-stack/adobe`](#next-stackadobe)
     - [`@next-stack/ai`](#next-stackai)
     - [`@next-stack/browser`](#next-stackbrowser)
     - [`@next-stack/blockchain`](#next-stackblockchain)
-    - [`@next-stack/messages`](#next-stackmessages)
     - [`@next-stack/other`](#next-stackother)
 - [Ecosystem](#ecosystem)
 - [Inspired By](#inspired-by)
@@ -44,34 +36,11 @@ date: '2025-05-11'
 #### `@next-stack/cli`
 
 - [Create T3 App](https://create.t3.gg/)
-- [Eslint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
-
-#### `@next-stack/test`
-
-- **unit**
-  - [Jest](https://jestjs.io/)
-  - [Vitest](https://vitest.dev/)
-- **e2e**
-  - [Cypress](https://www.cypress.io/)
-  - [Playwright](https://playwright.dev/)
-
-#### `@next-stack/devops`
-
-- Hosting
-  - [Vercel](https://vercel.com)
-  - [Netlify](https://www.netlify.com/)
-- Services
-  - [Supabase](https://supabase.com/)
-  - [PocketBase](https://pocketbase.io/)
 
 ### Full-stack
 
 #### `@next-stack/ui`
 
-- [TailwindCSS](https://tailwindcss.com/)
-  - [DaisyUI](https://daisyui.com/)
-- [shadcn/ui](https://ui.shadcn.com/)
 - [TanStack](https://tanstack.com/)
   - [Charts](https://react-charts.tanstack.com/)
   - [Form](https://tanstack.com/form/latest)
@@ -114,26 +83,7 @@ date: '2025-05-11'
 
 #### `@next-stack/server`
 
-- [GraphQL](https://graphql.org/)
-- [tRPC](https://trpc.io/)
 - [ws](https://github.com/websockets/ws)
-
-### Database
-
-#### `@next-stack/cache`
-
-1. [Memcached](https://memcached.org/)
-2. [Redis](https://redis.io/)
-
-#### `@next-stack/orm`
-
-1. [Drizzle](https://orm.drizzle.team/)
-2. [Prisma](https://www.prisma.io/)
-3. [TypeORM](https://typeorm.io/)
-
-#### `@next-stack/search`
-
-1. [ElasticSearch](https://www.elastic.co/elasticsearch)
 
 ### SaaS (Software as a Service)
 
@@ -157,13 +107,6 @@ date: '2025-05-11'
 4. [Paypal](https://www.paypal.com/)
 
 ### Other
-
-#### `@next-stack/adobe`
-
-- Creative Cloud
-- Illustrator
-- Photoshop
-- Lightroom
 
 #### `@next-stack/ai`
 
@@ -198,13 +141,6 @@ date: '2025-05-11'
 3. [Solana](https://solana.com/)
 4. [Monero](https://www.getmonero.org/)
 5. [Polygon](https://polygon.technology/)
-
-#### `@next-stack/messages`
-
-1. [Discord](https://discord.com/)
-2. [Signal](https://signal.org/)
-3. [Slack](https://slack.com/)
-4. [WhatsApp](https://www.whatsapp.com/)
 
 #### `@next-stack/other`
 
