@@ -24,8 +24,8 @@ importers:
         specifier: 4.0.3
         version: 4.0.3
       html-to-pdfmake:
-        specifier: 2.5.31
-        version: 2.5.31
+        specifier: 2.5.32
+        version: 2.5.32
       marked:
         specifier: 16.4.1
         version: 16.4.1
@@ -2148,8 +2148,8 @@ packages:
   html-escaper@2.0.2:
     resolution: {integrity: sha512-H2iMtd0I4Mt5eYiapRdIDjp+XzelXQ0tFE4JS7YFwFevXXMmOp9myNrUvCg0D6ws8iqkRPBfKHgbwig1SmlLfg==}
 
-  html-to-pdfmake@2.5.31:
-    resolution: {integrity: sha512-JCal2XMt3G2ndah4XQ3/WWj7OSYD7j81bhZ9070SWU3rdnVNqoAEI/JTS5GnNKF7v55Vw0S5KSwvulPbErJPAA==}
+  html-to-pdfmake@2.5.32:
+    resolution: {integrity: sha512-bymHFRh2Dfb/HhfRoBK1td8HlMomc7z3K2lpm2oAJLRwvjMa0T/sZvqm2bq+IeI8y357TzPgf2jeAfzIeMTk0Q==}
 
   html-void-elements@3.0.0:
     resolution: {integrity: sha512-bEqo66MRXsUGxWHV5IP0PUiAWwoEjba4VCzg0LjFJBpchPaTfyfCKTG6bc5F8ucKec3q5y6qOdGyYTSBEvhCrg==}
@@ -6288,7 +6288,7 @@ snapshots:
 
   html-escaper@2.0.2: {}
 
-  html-to-pdfmake@2.5.31: {}
+  html-to-pdfmake@2.5.32: {}
 
   html-void-elements@3.0.0: {}
 
