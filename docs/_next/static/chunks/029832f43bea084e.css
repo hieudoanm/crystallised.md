@@ -1241,17 +1241,6 @@
 			z-index: 3;
 			width: 100%;
 		}
-		.hero {
-			background-position: 50%;
-			background-size: cover;
-			place-items: center;
-			width: 100%;
-			display: grid;
-		}
-		.hero > * {
-			grid-row-start: 1;
-			grid-column-start: 1;
-		}
 		.status {
 			aspect-ratio: 1;
 			border-radius: var(--radius-selector);

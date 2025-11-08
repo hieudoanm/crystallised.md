@@ -11,7 +11,6 @@ date: '2025-05-04'
 
 ## Websites
 
-- [Duolingo](https://duolingo.com/)
 - [Strava](https://www.strava.com/)
 - [Mobbin](https://mobbin.com)
 - [Pinterest](https://www.pinterest.com/)

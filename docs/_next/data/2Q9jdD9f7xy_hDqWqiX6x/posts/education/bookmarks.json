@@ -1,0 +1,23 @@
+{
+	"pageProps": {
+		"postData": {
+			"id": "education/bookmarks",
+			"title": "Bookmarks",
+			"date": "2025-05-04",
+			"contentHtml": "<h2>Table of Contents</h2>\n<ul>\n<li><a href=\"#table-of-contents\">Table of Contents</a></li>\n<li><a href=\"#websites\">Websites</a></li>\n<li><a href=\"#-national-news-outlets\">📰 National News Outlets</a></li>\n</ul>\n<h2>Websites</h2>\n<ul>\n<li><a href=\"https://www.strava.com/\">Strava</a></li>\n<li><a href=\"https://mobbin.com\">Mobbin</a></li>\n<li><a href=\"https://www.pinterest.com/\">Pinterest</a></li>\n<li><a href=\"https://coolors.co/\">Coolors</a></li>\n<li>Platform\n<ul>\n<li><a href=\"https://www.linkedin.com/learning/\">LinkedIn Learning</a></li>\n<li><a href=\"https://www.udacity.com/\">Udacity</a></li>\n<li><a href=\"https://www.udemy.com/\">Udemy</a></li>\n</ul>\n</li>\n<li>University\n<ul>\n<li><a href=\"https://www.coursera.org/\">Coursera</a>\n<ul>\n<li><a href=\"https://www.coursera.org/learn/computational-neuroscience\">Computational Neuroscience</a></li>\n<li><a href=\"https://www.coursera.org/specializations/machine-learning-introduction\">Machine Learning Specialization</a></li>\n</ul>\n</li>\n<li><a href=\"https://pll.harvard.edu/\">Harvard</a></li>\n<li><a href=\"https://redwood.berkeley.edu/\">Redwood - Berkeley - University of California</a>\n<ul>\n<li><a href=\"https://redwood.berkeley.edu/courses/vs265/\">Neural Computation</a></li>\n</ul>\n</li>\n</ul>\n</li>\n<li>Resources\n<ul>\n<li><a href=\"https://www.apa.org/\">American Psychological Association</a></li>\n<li><a href=\"https://ieeexplore.ieee.org\">IEEE Xplore</a></li>\n<li><a href=\"https://www.proquest.com\">ProQuest</a></li>\n<li><a href=\"https://www.sciencedirect.com/\">ScienceDirect</a></li>\n<li><a href=\"https://www.scopus.com/\">Scopus</a></li>\n</ul>\n</li>\n</ul>\n<h2>📰 National News Outlets</h2>\n<ol>\n<li><a href=\"https://www.foxnews.com/\">Fox News</a></li>\n<li><a href=\"https://www.latimes.com/\">Los Angeles Times</a></li>\n<li><a href=\"https://www.chicagotribune.com/\">Chicago Tribune</a></li>\n<li><a href=\"https://www.bostonglobe.com/\">The Boston Globe</a></li>\n<li><a href=\"https://www.sfchronicle.com/\">San Francisco Chronicle</a></li>\n<li><a href=\"https://www.dallasnews.com/\">Dallas Morning News</a></li>\n<li><a href=\"https://www.miamiherald.com/\">Miami Herald</a></li>\n<li><a href=\"https://www.inquirer.com/\">The Philadelphia Inquirer</a></li>\n<li><a href=\"https://www.ajc.com/\">Atlanta Journal-Constitution</a></li>\n<li><a href=\"https://www.denverpost.com/\">The Denver Post</a></li>\n<li><a href=\"https://www.seattletimes.com/\">Seattle Times</a></li>\n<li><a href=\"https://www.thedailybeast.com/\">The Daily Beast</a></li>\n</ol>\n"
+		},
+		"relatedPosts": [
+			{
+				"id": "education/bookmarks",
+				"title": "Bookmarks",
+				"date": "2025-05-04"
+			},
+			{
+				"id": "education/master",
+				"title": "Master in Psychology",
+				"date": "2025-05-01"
+			}
+		]
+	},
+	"__N_SSG": true
+}
