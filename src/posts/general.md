@@ -7,9 +7,6 @@ date: '2025-05-01'
 
 - [Table of Content](#table-of-content)
 - [Dream House](#dream-house)
-  - [Groceries](#groceries)
-- [Bored](#bored)
-  - [Random Skills](#random-skills)
 - [Bookmarks](#bookmarks)
   - [Websites](#websites)
 - [📰 National News Outlets](#-national-news-outlets)
@@ -18,72 +15,13 @@ date: '2025-05-01'
   - [Programming Languages](#programming-languages)
   - [Programming Tools](#programming-tools)
 - [Habits vs Routines](#habits-vs-routines)
-  - [Habits](#habits)
-  - [Routines](#routines)
-    - [Work](#work)
-  - [The Eisenhower Matrix: How to prioritize your to-do list](#the-eisenhower-matrix-how-to-prioritize-your-to-do-list)
 - [Maslow's hierarchy of needs](#maslows-hierarchy-of-needs)
 - [STEAM](#steam)
 - [Mathematics](#mathematics)
   - [PI (π)](#pi-π)
   - [Perfect Numbers](#perfect-numbers)
-  - [Prime Numbers](#prime-numbers)
 
 ## Dream House
-
-### Groceries
-
-| No  | Supergroup | Group     | Subgroup  | Item            |
-| --- | ---------- | --------- | --------- | --------------- |
-| 01  | Food       | Breakfast | Grain     | Bread           |
-| 02  | Food       | Breakfast | Meat      | Ham             |
-| 03  | Food       | Breakfast | Cheese    | Cheese          |
-| 04  | Food       | Breakfast | Milk      | Milo            |
-| 05  | Food       | Dinner    | Grain     | Rice            |
-| 06  | Food       | Dinner    | Meat      | Pork            |
-| 07  | Food       | Dinner    | Sauce     | Fish Sauce      |
-| 08  | Food       | Dinner    | Vegetable | Swam Spinach    |
-| 09  | Food       | Snack     | Fruit     | Banana          |
-| 10  | Food       | Snack     | Drink     | Yogurt          |
-| 12  | Hygiene    | Clothes   |           | Detergent       |
-| 13  | Hygiene    | Clothes   |           | Fabric Softener |
-| 14  | Hygiene    | Hair      |           | Shampoo         |
-| 15  | Hygiene    | Body      |           | Body Wash       |
-| 16  | Hygiene    | Hand      |           | Hand Sanitizer  |
-| 17  | Hygiene    | Teeth     |           | Toothpaste      |
-| 18  | Hygiene    | Dishes    |           | Dishes Washer   |
-| 19  | Hygiene    | General   |           | Alcohol Spray   |
-| 20  | Energy     |           |           | Battery         |
-
-## Bored
-
-### Random Skills
-
-| Group          | Job                     | Skill                         |
-| -------------- | ----------------------- | ----------------------------- |
-| Argriculture   | Farmer                  | Plantation                    |
-| Business       | Accounting              | Money Management and Tracking |
-| Business       | Advertising / Marketing | Social Marketing              |
-| Business       | Copy Writer             | Writing                       |
-| Business       | Financial               | Quantitative Trading          |
-| Business       | Human Resources         | Motivating                    |
-| Business       | Sales                   | Promoting                     |
-| Beverage       | Barista                 | Coffee Making                 |
-| Beverage       | Batender                | Batender                      |
-| Creative       | Architecture            | Building Drawing              |
-| Creative       | Fashion                 | Clothes Design                |
-| Creative       | Graphics Design         | Vector Design                 |
-| Creative       | Photographer            | Photo Taking                  |
-| Creative       | Video Editor            | Video Editing                 |
-| Education      | Teacher                 | Teaching                      |
-| Food           | Bakery                  | Baking                        |
-| Food           | Chef                    | Cooking                       |
-| Gambling       | Blackjack               | Count Cards                   |
-| Journalism     | Journalist              | Story telling                 |
-| Music          | Pianist                 | Piano                         |
-| Music          | Violinist               | Violin                        |
-| Transportation | Pilot                   | Helicopter Flying             |
-| Politics       | Macroeconomist          | Economic Understanding        |
 
 ## Bookmarks
 
@@ -181,66 +119,6 @@ date: '2025-05-01'
 | Effort        | Low                       | Moderate to high             |
 | Example       | Buckling your seatbelt    | Morning workout + breakfast  |
 | Changeability | Hard to break once formed | Easier to adjust or redesign |
-
-### Habits
-
-- Sleep for `8` hours
-- Drink `2` liters of Water
-
-### Routines
-
-- `8` hours of Sleep
-- Brush my teeth
-- `25` push-up
-- `25` sit-up
-- Eat breakfast
-  - Drink `500` milliliters of Water
-- `4` hours of Work
-  - Drink `500` milliliters of Water
-- Have Lunch
-  - Drink `500` milliliters of Water
-- `4` hours of Work
-  - Drink `500` milliliters of Water
-- Have Dinner
-- `2` hours of Work
-- Run `5` kilometers
-
-| Time          | Activity                             | Time          | Activity                                                          |
-| ------------- | ------------------------------------ | ------------- | ----------------------------------------------------------------- |
-| 00:00 - 01:00 | Sleep                                | 12:00 - 13:00 | Lunch & Break & Drink 500ml of Water                              |
-| 01:00 - 02:00 | Sleep                                | 13:00 - 14:00 | Nap                                                               |
-| 02:00 - 03:00 | Sleep                                | 14:00 - 15:00 | [Work](#work) & Drink 500ml of Water                              |
-| 03:00 - 04:00 | Sleep                                | 15:00 - 16:00 | [Work](#work)                                                     |
-| 04:00 - 05:00 | Sleep                                | 16:00 - 17:00 | [Work](#work) with Tea (Yogurt with Fruit) & Drink 500ml of Water |
-| 05:00 - 06:00 | Sleep                                | 17:00 - 18:00 | [Work](#work)                                                     |
-| 06:00 - 07:00 | Sleep                                | 18:00 - 19:00 | [Work](#work) & Drink 500ml of Water                              |
-| 07:00 - 08:00 | Sleep                                | 19:00 - 20:00 | Dinner                                                            |
-| 08:00 - 09:00 | [routines](#routines)                | 20:00 - 21:00 | Leisure OR Psychology Practices & Drink 500ml of Water            |
-| 09:00 - 10:00 | [Work](#work)                        | 21:00 - 22:00 | Leisure OR Psychology Practices                                   |
-| 10:00 - 11:00 | [Work](#work) & Drink 500ml of Water | 22:00 - 23:00 | Run 5 km & 25 push-up & 25 sit-up & Drink 500ml of Water          |
-| 11:00 - 12:00 | [Work](#work)                        | 23:00 - 24:00 | Cool down and prepare to sleep                                    |
-
-#### Work
-
-- Professional Work
-  - Coding
-  - Scrum Master
-  - Documentation
-- Academic Work
-  - University Assignments
-  - Write Blog about Clinical Psychology and NeuroScience
-
-### The Eisenhower Matrix: How to prioritize your to-do list
-
-|               | Urgent      | Not Urgent |
-| ------------- | ----------- | ---------- |
-| Important     | `Do` It Now | `Schedule` |
-| Not important | `Delegate`  | `Delete`   |
-
-1. `Do` It Now
-2. `Schedule`
-3. `Delegate`
-4. `Delete`
 
 ## Maslow's hierarchy of needs
 
@@ -362,31 +240,3 @@ A perfect number is a positive integer that is equal to the sum of its positive 
 | 8   | 2,305,843,008,139,952,128                                               |
 | 9   | 2,658,455,991,569,831,744,654,692,615,953,842,176                       |
 | 10  | 191,561,942,608,236,107,294,793,378,084,303,638,130,997,321,548,169,216 |
-
-### Prime Numbers
-
-1. 2
-2. 3
-3. 5
-4. 7
-5. 11
-6. 13
-7. 17
-8. 19
-9. 23
-10. 29
-11. 31
-12. 37
-13. 41
-14. 43
-15. 47
-16. 53
-17. 59
-18. 61
-19. 67
-20. 71
-21. 73
-22. 79
-23. 83
-24. 89
-25. 97
