@@ -1,4 +1,4 @@
-export const APP_NAME: string = 'crystallised.md';
+export const APP_NAME: string = 'md';
 
 export const INITIAL_MARKDOWN: string = `# Markdown Cheat Sheet
 

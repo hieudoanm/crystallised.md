@@ -1,8 +1,8 @@
 {
 	"$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
-	"productName": "crystallised",
+	"productName": "md",
 	"version": "0.0.1",
-	"identifier": "io.github.hieudoam.crystallised",
+	"identifier": "io.github.hieudoam.md",
 	"build": {
 		"frontendDist": "../docs",
 		"devUrl": "http://localhost:3000",
@@ -12,7 +12,7 @@
 	"app": {
 		"windows": [
 			{
-				"title": "Crystallised",
+				"title": "MD",
 				"width": 800,
 				"height": 600,
 				"resizable": true,

@@ -2,18 +2,19 @@
 	'object' == typeof document ? document.currentScript : void 0,
 	{
 		otherChunks: [
-			'static/chunks/d94922c62a648b34.js',
-			'static/chunks/7539a971daebc4bf.js',
-			'static/chunks/165587dfd8c08359.js',
-			'static/chunks/634962c59ee993d7.js',
+			'static/chunks/aeec407f312f02f1.js',
+			'static/chunks/f67a514499cacb98.js',
+			'static/chunks/746b41107f5c8545.js',
+			'static/chunks/01b625656997d5d8.js',
+			'static/chunks/60574c59fd8f3dd6.css',
 		],
-		runtimeModuleIds: [2056, 1419],
+		runtimeModuleIds: [2056, 5075],
 	},
 ]),
 	(() => {
 		let e;
 		if (!Array.isArray(globalThis.TURBOPACK)) return;
-		let t = '/crystallised.md/_next/',
+		let t = '/md/_next/',
 			r = new WeakMap();
 		function n(e, t) {
 			((this.m = e), (this.e = t));
@@ -26,12 +27,12 @@
 		}
 		function u(e, t) {
 			let r = e[t];
-			return (r || ((r = a(t)), (e[t] = r)), r);
+			return (r || ((r = c(t)), (e[t] = r)), r);
 		}
-		function a(e) {
+		function c(e) {
 			return { exports: {}, error: void 0, id: e, namespaceObject: void 0 };
 		}
-		function c(e, t) {
+		function a(e, t) {
 			(s(e, '__esModule', { value: !0 }), i && s(e, i, { value: 'Module' }));
 			let r = 0;
 			for (; r < t.length; ) {
@@ -53,39 +54,39 @@
 				? (n = (r = u(this.c, t)).exports)
 				: ((r = this.m), (n = this.e)),
 				(r.namespaceObject = n),
-				c(n, e));
+				a(n, e));
 		}),
 			(o.j = function (e, t) {
 				var n, o;
-				let i, s, a;
+				let i, s, c;
 				null != t
 					? (s = (i = u(this.c, t)).exports)
 					: ((i = this.m), (s = this.e));
-				let c =
+				let a =
 					((n = i),
 					(o = s),
-					(a = r.get(n)) ||
-						(r.set(n, (a = [])),
+					(c = r.get(n)) ||
+						(r.set(n, (c = [])),
 						(n.exports = n.namespaceObject =
 							new Proxy(o, {
 								get(e, t) {
 									if (l.call(e, t) || 'default' === t || '__esModule' === t)
 										return Reflect.get(e, t);
-									for (let e of a) {
+									for (let e of c) {
 										let r = Reflect.get(e, t);
 										if (void 0 !== r) return r;
 									}
 								},
 								ownKeys(e) {
 									let t = Reflect.ownKeys(e);
-									for (let e of a)
+									for (let e of c)
 										for (let r of Reflect.ownKeys(e))
 											'default' === r || t.includes(r) || t.push(r);
 									return t;
 								},
 							}))),
-					a);
-				'object' == typeof e && null !== e && c.push(e);
+					c);
+				'object' == typeof e && null !== e && a.push(e);
 			}),
 			(o.v = function (e, t) {
 				(null != t ? u(this.c, t) : this.m).exports = e;
@@ -117,7 +118,7 @@
 			return (
 				(r && o >= 0) ||
 					(o >= 0 ? n.splice(o, 1, 0, e) : n.push('default', 0, e)),
-				c(t, n),
+				a(t, n),
 				t
 			);
 		}
@@ -196,14 +197,14 @@
 						(n && e(n), o.forEach(e), u.catch(() => {}));
 					},
 				}),
-				a = {
+				c = {
 					get: () => u,
 					set(e) {
 						e !== u && (u[y] = e);
 					},
 				};
-			(Object.defineProperty(r, 'exports', a),
-				Object.defineProperty(r, 'namespaceObject', a),
+			(Object.defineProperty(r, 'exports', c),
+				Object.defineProperty(r, 'namespaceObject', c),
 				e(
 					function (e) {
 						let t = e.map((e) => {
@@ -414,7 +415,7 @@ importScripts(...self.TURBOPACK_NEXT_CHUNK_URLS.map(c => self.TURBOPACK_WORKER_L
 						return `Module ${e} was instantiated ${n}, but the module factory is not available.`;
 					})(e, t, r),
 				);
-			let l = a(e),
+			let l = c(e),
 				i = l.exports;
 			M[e] = l;
 			let s = new n(l, i);

@@ -14,7 +14,7 @@
 		"jsx": "react-jsx",
 		"incremental": true,
 		"paths": {
-			"@crystallised/*": ["./src/*"]
+			"@md/*": ["./src/*"]
 		}
 	},
 	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

@@ -1,4 +1,4 @@
-import { APP_NAME } from '@crystallised/constants/app';
+import { APP_NAME } from '@md/constants/app';
 import Link from 'next/link';
 import { FC } from 'react';
 

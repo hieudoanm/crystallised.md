@@ -1,5 +1,5 @@
-import { APP_NAME } from '@crystallised/constants/app';
-import '@crystallised/styles/globals.css';
+import { APP_NAME } from '@md/constants/app';
+import '@md/styles/globals.css';
 import 'github-markdown-css/github-markdown.css';
 import type { AppProps } from 'next/app';
 import { Geist, Geist_Mono } from 'next/font/google';
@@ -20,7 +20,7 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
 	return (
 		<>
 			<Head>
-				<title>{`${APP_NAME} - Crystallised Knowledge`}</title>
+				<title>{`${APP_NAME}`}</title>
 			</Head>
 			<div className={`${geistSans.className} ${geistMono.className}`}>
 				<Component {...pageProps} />

@@ -2,17 +2,18 @@
 	'object' == typeof document ? document.currentScript : void 0,
 	{
 		otherChunks: [
-			'static/chunks/ac4e358b4a78f46c.js',
-			'static/chunks/634962c59ee993d7.js',
-			'static/chunks/7539a971daebc4bf.js',
+			'static/chunks/d94922c62a648b34.js',
+			'static/chunks/f67a514499cacb98.js',
+			'static/chunks/165587dfd8c08359.js',
+			'static/chunks/746b41107f5c8545.js',
 		],
-		runtimeModuleIds: [2056, 299],
+		runtimeModuleIds: [2056, 1419],
 	},
 ]),
 	(() => {
 		let e;
 		if (!Array.isArray(globalThis.TURBOPACK)) return;
-		let t = '/crystallised.md/_next/',
+		let t = '/md/_next/',
 			r = new WeakMap();
 		function n(e, t) {
 			((this.m = e), (this.e = t));

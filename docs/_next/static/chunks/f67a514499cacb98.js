@@ -370,9 +370,7 @@
 		let n = e.r(1802),
 			a = e.r(1609);
 		function o(e, t) {
-			return (0, a.normalizePathTrailingSlash)(
-				(0, n.addPathPrefix)(e, '/crystallised.md'),
-			);
+			return (0, a.normalizePathTrailingSlash)((0, n.addPathPrefix)(e, '/md'));
 		}
 		('function' == typeof r.default ||
 			('object' == typeof r.default && null !== r.default)) &&
@@ -2128,7 +2126,7 @@
 			}));
 		let n = e.r(1086);
 		function a(e) {
-			return (0, n.pathHasPrefix)(e, '/crystallised.md');
+			return (0, n.pathHasPrefix)(e, '/md');
 		}
 		('function' == typeof r.default ||
 			('object' == typeof r.default && null !== r.default)) &&

@@ -39,25 +39,25 @@
 						}
 					}
 					var s = [],
-						l = !1,
-						c = -1;
+						c = !1,
+						l = -1;
 					function f() {
-						l &&
+						c &&
 							r &&
-							((l = !1),
-							r.length ? (s = r.concat(s)) : (c = -1),
+							((c = !1),
+							r.length ? (s = r.concat(s)) : (l = -1),
 							s.length && d());
 					}
 					function d() {
-						if (!l) {
+						if (!c) {
 							var e = a(f);
-							l = !0;
+							c = !0;
 							for (var t = s.length; t; ) {
-								for (r = s, s = []; ++c < t; ) r && r[c].run();
-								((c = -1), (t = s.length));
+								for (r = s, s = []; ++l < t; ) r && r[l].run();
+								((l = -1), (t = s.length));
 							}
 							((r = null),
-								(l = !1),
+								(c = !1),
 								(function (e) {
 									if (n === clearTimeout) return clearTimeout(e);
 									if ((n === u || !n) && clearTimeout)
@@ -83,7 +83,7 @@
 						if (arguments.length > 1)
 							for (var n = 1; n < arguments.length; n++)
 								t[n - 1] = arguments[n];
-						(s.push(new p(e, t)), 1 !== s.length || l || a(d));
+						(s.push(new p(e, t)), 1 !== s.length || c || a(d));
 					}),
 						(p.prototype.run = function () {
 							this.fun.apply(null, this.array);
@@ -191,8 +191,8 @@
 			u = Symbol.for('react.fragment'),
 			a = Symbol.for('react.strict_mode'),
 			s = Symbol.for('react.profiler'),
-			l = Symbol.for('react.consumer'),
-			c = Symbol.for('react.context'),
+			c = Symbol.for('react.consumer'),
+			l = Symbol.for('react.context'),
 			f = Symbol.for('react.forward_ref'),
 			d = Symbol.for('react.suspense'),
 			p = Symbol.for('react.memo'),
@@ -253,8 +253,8 @@
 		function P(e) {
 			return 'object' == typeof e && null !== e && e.$$typeof === o;
 		}
-		var C = /\/+/g;
-		function N(e, t) {
+		var N = /\/+/g;
+		function C(e, t) {
 			var n, r;
 			return 'object' == typeof e && null !== e && null != e.key
 				? ((n = '' + e.key),
@@ -272,8 +272,8 @@
 			return (
 				!(function e(t, n, r, u, a) {
 					var s,
-						l,
 						c,
+						l,
 						f = typeof t;
 					('undefined' === f || 'boolean' === f) && (t = null);
 					var d = !1;
@@ -298,23 +298,23 @@
 					if (d)
 						return (
 							(a = a(t)),
-							(d = '' === u ? '.' + N(t, 0) : u),
+							(d = '' === u ? '.' + C(t, 0) : u),
 							x(a)
 								? ((r = ''),
-									null != d && (r = d.replace(C, '$&/') + '/'),
+									null != d && (r = d.replace(N, '$&/') + '/'),
 									e(a, n, r, '', function (e) {
 										return e;
 									}))
 								: null != a &&
 									(P(a) &&
 										((s = a),
-										(l =
+										(c =
 											r +
 											(null == a.key || (t && t.key === a.key)
 												? ''
-												: ('' + a.key).replace(C, '$&/') + '/') +
+												: ('' + a.key).replace(N, '$&/') + '/') +
 											d),
-										(a = O(s.type, l, s.props))),
+										(a = O(s.type, c, s.props))),
 									n.push(a)),
 							1
 						);
@@ -322,18 +322,18 @@
 					var p = '' === u ? '.' : u + ':';
 					if (x(t))
 						for (var m = 0; m < t.length; m++)
-							((f = p + N((u = t[m]), m)), (d += e(u, n, r, f, a)));
+							((f = p + C((u = t[m]), m)), (d += e(u, n, r, f, a)));
 					else if (
 						'function' ==
 						typeof (m =
-							null === (c = t) || 'object' != typeof c
+							null === (l = t) || 'object' != typeof l
 								? null
-								: 'function' == typeof (c = (h && c[h]) || c['@@iterator'])
-									? c
+								: 'function' == typeof (l = (h && l[h]) || l['@@iterator'])
+									? l
 									: null)
 					)
 						for (t = m.call(t), m = 0; !(u = t.next()).done; )
-							((f = p + N((u = u.value), m++)), (d += e(u, n, r, f, a)));
+							((f = p + C((u = u.value), m++)), (d += e(u, n, r, f, a)));
 					else if ('object' === f) {
 						if ('function' == typeof t.then)
 							return e(
@@ -516,14 +516,14 @@
 			(n.createContext = function (e) {
 				return (
 					((e = {
-						$$typeof: c,
+						$$typeof: l,
 						_currentValue: e,
 						_currentValue2: e,
 						_threadCount: 0,
 						Provider: null,
 						Consumer: null,
 					}).Provider = e),
-					(e.Consumer = { $$typeof: l, _context: e }),
+					(e.Consumer = { $$typeof: c, _context: e }),
 					e
 				);
 			}),
@@ -709,10 +709,10 @@
 				return f;
 			},
 			getLocationOrigin: function () {
-				return l;
+				return c;
 			},
 			getURL: function () {
-				return c;
+				return l;
 			},
 			isAbsoluteUrl: function () {
 				return s;
@@ -739,13 +739,13 @@
 		}
 		let a = /^[a-zA-Z][a-zA-Z\d+\-.]*?:/,
 			s = (e) => a.test(e);
-		function l() {
+		function c() {
 			let { protocol: e, hostname: t, port: n } = window.location;
 			return `${e}//${t}${n ? ':' + n : ''}`;
 		}
-		function c() {
+		function l() {
 			let { href: e } = window.location,
-				t = l();
+				t = c();
 			return e.substring(t.length);
 		}
 		function f(e) {
@@ -934,7 +934,7 @@ H~2~O
 ### Superscript
 
 X^2^`;
-		e.s(['APP_NAME', 0, 'crystallised.md', 'INITIAL_MARKDOWN', 0, t]);
+		e.s(['APP_NAME', 0, 'md', 'INITIAL_MARKDOWN', 0, t]);
 	},
 	2194,
 	(e, t, n) => {
@@ -1035,8 +1035,8 @@ X^2^`;
 			u = e.r(7602),
 			a = e.r(4601),
 			s = u._(e.r(6960)),
-			l = i._(e.r(1006)),
-			c = e.r(2194);
+			c = i._(e.r(1006)),
+			l = e.r(2194);
 		function f() {
 			return [
 				(0, a.jsx)('meta', { charSet: 'utf-8' }, 'charset'),
@@ -1112,8 +1112,8 @@ X^2^`;
 				});
 		}
 		let m = function ({ children: e }) {
-			let t = (0, s.useContext)(c.HeadManagerContext);
-			return (0, a.jsx)(l.default, {
+			let t = (0, s.useContext)(l.HeadManagerContext);
+			return (0, a.jsx)(c.default, {
 				reduceComponentsToState: y,
 				headManager: t,
 				children: e,
@@ -1173,9 +1173,7 @@ X^2^`;
 					(0, t.jsxs)(t.Fragment, {
 						children: [
 							(0, t.jsx)(a.default, {
-								children: (0, t.jsx)('title', {
-									children: `${n.APP_NAME} - Crystallised Knowledge`,
-								}),
+								children: (0, t.jsx)('title', { children: `${n.APP_NAME}` }),
 							}),
 							(0, t.jsx)('div', {
 								className: `${o.className} ${u.className}`,

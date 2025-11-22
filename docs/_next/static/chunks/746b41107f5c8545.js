@@ -14078,29 +14078,23 @@ ${t}`),
 	2733,
 	(e, t, n) => {
 		'use strict';
+		function r(e) {
+			return ((e = e.slice(3)).startsWith('/') || (e = `/${e}`), e);
+		}
 		(Object.defineProperty(n, '__esModule', { value: !0 }),
 			Object.defineProperty(n, 'removeBasePath', {
 				enumerable: !0,
 				get: function () {
-					return a;
+					return r;
 				},
 			}),
-			e.r(8647));
-		let r = '/crystallised.md';
-		function a(e) {
-			return (
-				0 === r.length ||
-					(e = e.slice(r.length)).startsWith('/') ||
-					(e = `/${e}`),
-				e
-			);
-		}
-		('function' == typeof n.default ||
-			('object' == typeof n.default && null !== n.default)) &&
-			void 0 === n.default.__esModule &&
-			(Object.defineProperty(n.default, '__esModule', { value: !0 }),
-			Object.assign(n.default, n),
-			(t.exports = n.default));
+			e.r(8647),
+			('function' == typeof n.default ||
+				('object' == typeof n.default && null !== n.default)) &&
+				void 0 === n.default.__esModule &&
+				(Object.defineProperty(n.default, '__esModule', { value: !0 }),
+				Object.assign(n.default, n),
+				(t.exports = n.default)));
 	},
 	3585,
 	(e, t, n) => {
@@ -14767,7 +14761,7 @@ ${t}`),
 					(this.pageLoader = a));
 				const w = (0, m.isDynamicRoute)(e) && self.__NEXT_DATA__.autoExport;
 				if (
-					((this.basePath = '/crystallised.md'),
+					((this.basePath = '/md'),
 					(this.sub = c),
 					(this.clc = null),
 					(this._wrapApp = o),
@@ -16541,7 +16535,7 @@ ${e.stack}`
 												],
 												imageSizes: [32, 48, 64, 96, 128, 256, 384],
 												qualities: [75],
-												path: '/crystallised.md/_next/image/',
+												path: '/md/_next/image/',
 												loader: 'default',
 												dangerouslyAllowSVG: !1,
 												unoptimized: !1,

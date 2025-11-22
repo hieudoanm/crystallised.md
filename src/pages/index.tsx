@@ -1,6 +1,6 @@
-import { MarkdownPreviewer } from '@crystallised/components/MarkdownPreviewer';
-import { Navbar } from '@crystallised/components/Navbar/Navbar';
-import { INITIAL_MARKDOWN } from '@crystallised/constants/app';
+import { MarkdownPreviewer } from '@md/components/MarkdownPreviewer';
+import { Navbar } from '@md/components/Navbar/Navbar';
+import { INITIAL_MARKDOWN } from '@md/constants/app';
 import 'github-markdown-css/github-markdown.css';
 import { marked } from 'marked';
 import { NextPage } from 'next';

@@ -1340,7 +1340,7 @@ H~2~O
 ### Superscript
 
 X^2^`;
-		e.s(['APP_NAME', 0, 'crystallised.md', 'INITIAL_MARKDOWN', 0, t]);
+		e.s(['APP_NAME', 0, 'md', 'INITIAL_MARKDOWN', 0, t]);
 	},
 	8392,
 	(e) => {

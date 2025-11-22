@@ -1,19 +1,18 @@
 {
-	"name": "crystallised.md",
+	"name": "@md/frontend",
 	"version": "0.1.0",
 	"private": true,
-	"description": "Crystallised Knowledge",
+	"description": "Markdown",
 	"keywords": [
-		"crystallised",
 		"markdown"
 	],
-	"homepage": "https://github.com/hieudoanm/crystallised.md#readme",
+	"homepage": "https://github.com/hieudoanm/md#readme",
 	"bugs": {
-		"url": "https://github.com/hieudoanm/crystallised.md/issues"
+		"url": "https://github.com/hieudoanm/md/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+ssh://git@github.com/hieudoanm/crystallised.md.git"
+		"url": "git+ssh://git@github.com/hieudoanm/md.git"
 	},
 	"license": "GPL-3.0",
 	"author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",

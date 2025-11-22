@@ -1,6 +1,6 @@
-import { logger } from '@crystallised/utils/log';
-import { getSortedPostsData } from '@crystallised/utils/posts';
-import { isSubset } from '@crystallised/utils/set';
+import { logger } from '@md/utils/log';
+import { getSortedPostsData } from '@md/utils/posts';
+import { isSubset } from '@md/utils/set';
 import matter from 'gray-matter';
 import htmlToPdfmake from 'html-to-pdfmake';
 import { GetStaticProps, NextPage } from 'next';

@@ -1,10 +1,10 @@
 [package]
-name = "crystallised"
+name = "md"
 version = "0.0.1"
 description = "A Markdown Editor built with Tauri"
 authors = ["hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)"]
 license = "GPL-3.0"
-repository = "git@github.com/hieudoanm/crystallised.md.git"
+repository = "git@github.com/hieudoanm/md.git"
 edition = "2024"
 rust-version = "1.85.0"
 
